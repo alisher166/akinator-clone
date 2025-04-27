@@ -1,0 +1,11 @@
+.gamePage {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.questionContainer {
+  width: 100%;
+} 

@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Akinator Clone
 
-## Getting Started
+## Описание проекта | Project Description
 
-First, run the development server:
+Это веб-приложение, клон популярной игры Akinator, где игрок загадывает персонажа, а искусственный интеллект пытается его угадать, задавая вопросы.
 
+This is a web application, a clone of the popular Akinator game, where a player thinks of a character, and artificial intelligence tries to guess it by asking questions.
+
+## Технический стек | Tech Stack
+
+- Next.js 14 (React Framework)
+- TypeScript
+- Tailwind CSS
+- Prisma (ORM)
+- PostgreSQL
+- OpenAI API (для угадывания персонажей | for character guessing)
+
+## Установка и запуск | Installation and Setup
+
+1. Клонируйте репозиторий:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
+cd akinator-clone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Установите зависимости:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Создайте файл .env.local (используйте .env.example как шаблон) и добавьте необходимые переменные окружения:
+```env
+DATABASE_URL="postgresql://user:password@localhost:5432/akinator"
+OPENAI_API_KEY="your-openai-api-key"
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Настройте и запустите PostgreSQL базу данных (локально или на удаленном сервере).
 
-## Learn More
+5. Запустите миграции базы данных:
+```bash
+npx prisma migrate dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. Сгенерируйте Prisma клиент:
+```bash
+npx prisma generate
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. Запустите приложение в режиме разработки:
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+8. Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере.
 
-## Deploy on Vercel
+## Деплой | Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Для деплоя вы можете использовать Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Создайте аккаунт на Vercel.com (если у вас его ещё нет).
+2. Свяжите ваш GitHub репозиторий с Vercel.
+3. Настройте переменные окружения в Vercel.
+4. Vercel автоматически развернет ваше приложение.
+
+## Процесс разработки | Development Process
+
+1. **Проектирование | Design**
+   - Создание базовой структуры приложения
+   - Проектирование базы данных (игры, вопросы, догадки)
+   - Определение основных функций (старт игры, ответы на вопросы, угадывание)
+
+2. **Разработка | Development**
+   - Реализация базового интерфейса с использованием Next.js и Tailwind CSS
+   - Интеграция с OpenAI API для генерации вопросов и угадывания
+   - Разработка логики игры и маршрутов API
+   - Тестирование и отладка
+
+## Уникальные подходы | Unique Approaches
+
+- Использование OpenAI API и GPT-4 для более точного угадывания персонажей, что даёт огромную базу знаний
+- Двуязычный интерфейс (русский/английский) для более широкой аудитории
+- Адаптивный дизайн для всех устройств (мобильные, планшеты, настольные)
+- Оптимизация запросов к API для снижения затрат на использование OpenAI API
+
+## Компромиссы | Compromises
+
+- Использование OpenAI API вместо собственной базы знаний для более точных результатов, но с ограничениями по количеству запросов
+- Баланс между сложностью вопросов и скоростью угадывания персонажей
+- Простота интерфейса в пользу функциональности и скорости разработки
+
+## Известные проблемы | Known Issues
+
+- Ограничения API OpenAI по количеству запросов (может потребоваться реализация кэширования)
+- Возможные задержки при генерации вопросов в зависимости от нагрузки на OpenAI API
+- Необходимость подключения к интернету для использования приложения
+
+## Почему этот стек? | Why This Stack?
+
+- **Next.js**: Предоставляет отличную производительность, SSR для SEO, API Routes для бэкенда в одном проекте
+- **TypeScript**: Обеспечивает типобезопасность, улучшает обнаружение ошибок на этапе компиляции и улучшает разработку с помощью автозаполнения
+- **Tailwind CSS**: Позволяет быстро создавать отзывчивый UI без написания пользовательских CSS
+- **Prisma**: Упрощает работу с базой данных через ORM, предоставляя типобезопасные запросы и миграции
+- **PostgreSQL**: Надежная реляционная база данных с поддержкой JSON и другими продвинутыми функциями
+- **OpenAI API**: Обеспечивает доступ к современным моделям AI для умного угадывания персонажей

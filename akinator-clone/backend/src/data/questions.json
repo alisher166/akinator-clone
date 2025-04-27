@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "text": "Ваш персонаж мужского пола?",
+    "textEn": "Is your character male?",
+    "traitKey": "isMale"
+  },
+  {
+    "id": 2,
+    "text": "Ваш персонаж является вымышленным?",
+    "textEn": "Is your character fictional?",
+    "traitKey": "isFictional"
+  },
+  {
+    "id": 3,
+    "text": "Ваш персонаж носит очки?",
+    "textEn": "Does your character wear glasses?",
+    "traitKey": "wearsGlasses"
+  },
+  {
+    "id": 4,
+    "text": "Ваш персонаж является супергероем?",
+    "textEn": "Is your character a superhero?",
+    "traitKey": "isSuperhero"
+  },
+  {
+    "id": 5,
+    "text": "Ваш персонаж американец?",
+    "textEn": "Is your character American?",
+    "traitKey": "isAmerican"
+  },
+  {
+    "id": 6,
+    "text": "Ваш персонаж мертв?",
+    "textEn": "Is your character deceased?",
+    "traitKey": "isDeceased"
+  },
+  {
+    "id": 7,
+    "text": "Ваш персонаж из комиксов?",
+    "textEn": "Is your character from comics?",
+    "traitKey": "isFromComics"
+  },
+  {
+    "id": 8,
+    "text": "Ваш персонаж является мультипликационным?",
+    "textEn": "Is your character a cartoon character?",
+    "traitKey": "isCartoonCharacter"
+  },
+  {
+    "id": 9,
+    "text": "Ваш персонаж имеет блондинистые волосы?",
+    "textEn": "Does your character have blonde hair?",
+    "traitKey": "hasBlondeHair"
+  },
+  {
+    "id": 10,
+    "text": "Ваш персонаж носит черное?",
+    "textEn": "Does your character wear black?",
+    "traitKey": "wearsBlack"
+  },
+  {
+    "id": 11,
+    "text": "Ваш персонаж является миллиардером?",
+    "textEn": "Is your character a billionaire?",
+    "traitKey": "isBillionaire"
+  },
+  {
+    "id": 12,
+    "text": "Ваш персонаж имеет особые способности?",
+    "textEn": "Does your character have special powers?",
+    "traitKey": "hasSpecialPowers"
+  },
+  {
+    "id": 13,
+    "text": "Ваш персонаж является ученым?",
+    "textEn": "Is your character a scientist?",
+    "traitKey": "isScientist"
+  },
+  {
+    "id": 14,
+    "text": "Ваш персонаж является актером/актрисой?",
+    "textEn": "Is your character an actor/actress?",
+    "traitKey": "isActress"
+  },
+  {
+    "id": 15,
+    "text": "Ваш персонаж является певцом/певицей?",
+    "textEn": "Is your character a singer?",
+    "traitKey": "isSinger"
+  },
+  {
+    "id": 16,
+    "text": "Ваш персонаж связан с космосом?",
+    "textEn": "Is your character related to space?",
+    "traitKey": "ownsSpaceCompany"
+  },
+  {
+    "id": 17,
+    "text": "Ваш персонаж имеет магические способности?",
+    "textEn": "Does your character have magical powers?",
+    "traitKey": "hasMagicalPowers"
+  },
+  {
+    "id": 18,
+    "text": "Ваш персонаж является членом королевской семьи?",
+    "textEn": "Is your character royalty?",
+    "traitKey": "isRoyalty"
+  },
+  {
+    "id": 19,
+    "text": "Ваш персонаж является исторической личностью?",
+    "textEn": "Is your character a historical figure?",
+    "traitKey": "isHistorical"
+  },
+  {
+    "id": 20,
+    "text": "Ваш персонаж имеет отношение к технологиям или компьютерам?",
+    "textEn": "Is your character related to technology or computers?",
+    "traitKey": "isInTech"
+  },
+  {
+    "id": 21,
+    "text": "Ваш персонаж является художником или связан с искусством?",
+    "textEn": "Is your character an artist or related to art?",
+    "traitKey": "isArtist"
+  },
+  {
+    "id": 22,
+    "text": "Ваш персонаж является злодеем?",
+    "textEn": "Is your character a villain?",
+    "traitKey": "isVillain"
+  },
+  {
+    "id": 23,
+    "text": "Ваш персонаж имеет отношение к кино?",
+    "textEn": "Is your character related to movies?",
+    "traitKey": "hasMovies"
+  },
+  {
+    "id": 24,
+    "text": "Ваш персонаж из Великобритании?",
+    "textEn": "Is your character from Britain?",
+    "traitKey": "fromBritain"
+  },
+  {
+    "id": 25,
+    "text": "Ваш персонаж носит специальный костюм?",
+    "textEn": "Does your character wear a special costume?",
+    "traitKey": "wearsSpecialCostume"
+  },
+  {
+    "id": 26,
+    "text": "Ваш персонаж является подростком?",
+    "textEn": "Is your character a teenager?",
+    "traitKey": "isTeenager"
+  },
+  {
+    "id": 27,
+    "text": "Ваш персонаж имеет особое оружие?",
+    "textEn": "Does your character have a special weapon?",
+    "traitKey": "hasSpecialWeapon"
+  },
+  {
+    "id": 28,
+    "text": "Ваш персонаж является животным или имеет черты животного?",
+    "textEn": "Is your character an animal or has animal traits?",
+    "traitKey": "isAnimal"
+  },
+  {
+    "id": 29,
+    "text": "Ваш персонаж имеет отношение к видеоиграм?",
+    "textEn": "Is your character related to video games?",
+    "traitKey": "fromVideoGames"
+  },
+  {
+    "id": 30,
+    "text": "Ваш персонаж является известным бизнесменом?",
+    "textEn": "Is your character a famous businessperson?",
+    "traitKey": "isBusinessperson"
+  }
+] 

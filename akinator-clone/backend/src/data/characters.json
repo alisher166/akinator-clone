@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Гарри Поттер",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "wearsGlasses": true,
+      "hasScars": true,
+      "isWizard": true,
+      "fromBooks": true,
+      "hasMovies": true,
+      "isTeenager": true,
+      "hasMagicalPowers": true,
+      "fromBritain": true
+    }
+  },
+  {
+    "id": 2,
+    "name": "Спайдермен",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isSuperhero": true,
+      "hasMovies": true,
+      "hasSpecialPowers": true,
+      "wearsSpecialCostume": true,
+      "canFly": false,
+      "isTeenager": true,
+      "isFromComics": true,
+      "isFromMarvel": true
+    }
+  },
+  {
+    "id": 3,
+    "name": "Эйнштейн",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "wearsGlasses": true,
+      "isScientist": true,
+      "isDeceased": true,
+      "hasDistinctiveHair": true,
+      "wonNobelPrize": true,
+      "livesInEurope": true,
+      "workedWithPhysics": true,
+      "isGenius": true
+    }
+  },
+  {
+    "id": 4,
+    "name": "Мадонна",
+    "traits": {
+      "isMale": false,
+      "isFictional": false,
+      "isSinger": true,
+      "isAmerican": true,
+      "isPerformer": true,
+      "hasBlondeHair": true,
+      "isStillActive": true,
+      "hasReceivedGrammyAward": true,
+      "hasDoneActing": true,
+      "hasChildrenBySurrogacy": true
+    }
+  },
+  {
+    "id": 5,
+    "name": "Дарт Вейдер",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isVillain": true,
+      "wearsBlack": true,
+      "hasSpecialWeapon": true,
+      "fromStarWars": true,
+      "hasSpecialPowers": true,
+      "wearsHelmet": true,
+      "isParent": true,
+      "usesTheDarkSide": true
+    }
+  },
+  {
+    "id": 6,
+    "name": "Мерилин Монро",
+    "traits": {
+      "isMale": false,
+      "isFictional": false,
+      "isActress": true,
+      "hasBlondeHair": true,
+      "isDeceased": true,
+      "isAmerican": true,
+      "isIconic": true,
+      "isSexSymbol": true,
+      "wasBorn1920s": true,
+      "appearedOnMagazineCovers": true
+    }
+  },
+  {
+    "id": 7,
+    "name": "Микки Маус",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isCartoonCharacter": true,
+      "isAnimal": true,
+      "createdByDisney": true,
+      "wearsGloves": true,
+      "hasTail": true,
+      "hasLargeEars": true,
+      "hasOwnThemepark": true,
+      "isMouseCharacter": true
+    }
+  },
+  {
+    "id": 8,
+    "name": "Билл Гейтс",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "wearsGlasses": true,
+      "isBillionaire": true,
+      "createdSoftware": true,
+      "isBusinessperson": true,
+      "isAmerican": true,
+      "isPhilanthropist": true,
+      "foundedMicrosoft": true,
+      "droppedOutOfCollege": true
+    }
+  },
+  {
+    "id": 9,
+    "name": "Пикачу",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isCartoonCharacter": true,
+      "isYellow": true,
+      "hasElectricPowers": true,
+      "fromVideoGames": true,
+      "isPokemon": true,
+      "fromJapan": true,
+      "hasPointyEars": true,
+      "hasShortTail": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Клеопатра",
+    "traits": {
+      "isMale": false,
+      "isFictional": false,
+      "isRoyalty": true,
+      "isDeceased": true,
+      "isHistorical": true,
+      "fromEgypt": true,
+      "livedBCE": true,
+      "wasQueen": true,
+      "knownForBeauty": true,
+      "hadRomanLovers": true
+    }
+  },
+  {
+    "id": 11,
+    "name": "Бэтмен",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isSuperhero": true,
+      "wearsBlack": true,
+      "hasSpecialVehicle": true,
+      "isRich": true,
+      "wearsSpecialCostume": true,
+      "isFromComics": true,
+      "hasSidekick": true,
+      "isFromDC": true
+    }
+  },
+  {
+    "id": 12,
+    "name": "Принцесса Диана",
+    "traits": {
+      "isMale": false,
+      "isFictional": false,
+      "isRoyalty": true,
+      "isDeceased": true,
+      "wasCelebrityIcon": true,
+      "fromBritain": true,
+      "hadRoyalTitle": true,
+      "wasMarried": true,
+      "wasPhilanthropist": true,
+      "diedTragically": true
+    }
+  },
+  {
+    "id": 13,
+    "name": "Аладдин",
+    "traits": {
+      "isMale": true,
+      "isFictional": true,
+      "isCartoonCharacter": true,
+      "fromArabianNights": true,
+      "hasAMagicItem": true,
+      "livesInPalace": true,
+      "hasAnimalFriend": true,
+      "hasDisneyMovie": true,
+      "wearsTurban": true,
+      "meetsGenie": true
+    }
+  },
+  {
+    "id": 14,
+    "name": "Уолт Дисней",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "isArtist": true,
+      "isDeceased": true,
+      "createdCartoons": true,
+      "isAmerican": true,
+      "hasOwnCompany": true,
+      "hasThemeParks": true,
+      "hasMoustache": true,
+      "createdMickeyMouse": true
+    }
+  },
+  {
+    "id": 15,
+    "name": "Мона Лиза",
+    "traits": {
+      "isMale": false,
+      "isFictional": true,
+      "isArtwork": true,
+      "isInMuseum": true,
+      "createdByLeonardo": true,
+      "isFromItaly": true,
+      "isOlderThan500Years": true,
+      "hasSmile": true,
+      "isWorldFamous": true,
+      "hasBeenStolen": true
+    }
+  },
+  {
+    "id": 16,
+    "name": "Илон Маск",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "isBillionaire": true,
+      "ownsTesla": true,
+      "isBusinessperson": true,
+      "fromSouthAfrica": true,
+      "ownsSpaceCompany": true,
+      "usesTwitter": true,
+      "hasManyChildren": true,
+      "isInTech": true
+    }
+  },
+  {
+    "id": 17,
+    "name": "Эльза",
+    "traits": {
+      "isMale": false,
+      "isFictional": true,
+      "isCartoonCharacter": true,
+      "hasBlondeHair": true,
+      "hasIcePowers": true,
+      "isPrincess": true,
+      "fromFrozen": true,
+      "hasSister": true,
+      "wearsBlue": true,
+      "canSing": true
+    }
+  },
+  {
+    "id": 18,
+    "name": "Наполеон",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "isDeceased": true,
+      "isMilitary": true,
+      "isHistorical": true,
+      "fromFrance": true,
+      "wasFrenchEmperor": true,
+      "isShort": true,
+      "woreDistinctiveHat": true,
+      "diedInExile": true
+    }
+  },
+  {
+    "id": 19,
+    "name": "Чудо-Женщина",
+    "traits": {
+      "isMale": false,
+      "isFictional": true,
+      "isSuperhero": true,
+      "hasSpecialPowers": true,
+      "wearsSpecialCostume": true,
+      "isFromComics": true,
+      "isFromDC": true,
+      "hasLasso": true,
+      "isAmazon": true,
+      "hasInvisibleJet": true
+    }
+  },
+  {
+    "id": 20,
+    "name": "Стив Джобс",
+    "traits": {
+      "isMale": true,
+      "isFictional": false,
+      "isDeceased": true,
+      "isBillionaire": true,
+      "createdComputer": true,
+      "isBusinessperson": true,
+      "isAmerican": true,
+      "foundedApple": true,
+      "woreBlackTurtleneck": true,
+      "hadCancer": true
+    }
+  }
+] 

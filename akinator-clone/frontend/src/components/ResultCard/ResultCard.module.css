@@ -1,0 +1,111 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.genie {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.resultTitle {
+  font-size: 1.8rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 20px;
+}
+
+.characterResult {
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
+  padding: 20px;
+  border-radius: var(--border-radius);
+  margin: 20px 0;
+  width: 100%;
+}
+
+.characterName {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.guessQuestion {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: var(--color-text-light);
+}
+
+.feedbackButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.button {
+  padding: 12px 25px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.correctButton {
+  background-color: var(--color-success);
+  color: var(--color-white);
+}
+
+.incorrectButton {
+  background-color: var(--color-error);
+  color: var(--color-white);
+}
+
+.playAgainButton {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+  
+  .genie {
+    font-size: 4rem;
+  }
+  
+  .resultTitle {
+    font-size: 1.5rem;
+  }
+  
+  .characterName {
+    font-size: 1.8rem;
+  }
+  
+  .feedbackButtons {
+    flex-direction: column;
+  }
+  
+  .button {
+    width: 100%;
+  }
+} 

@@ -1,0 +1,83 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.questionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.genie {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 20px;
+  min-height: 2em;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 12px 25px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.yesButton {
+  background-color: var(--color-success);
+  color: var(--color-white);
+}
+
+.noButton {
+  background-color: var(--color-error);
+  color: var(--color-white);
+}
+
+.dontKnowButton {
+  background-color: var(--color-warning);
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+  
+  .genie {
+    font-size: 3rem;
+  }
+  
+  .question {
+    font-size: 1.3rem;
+  }
+  
+  .buttonsContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .button {
+    width: 100%;
+  }
+} 
